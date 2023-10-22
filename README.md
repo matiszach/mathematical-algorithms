@@ -3,7 +3,7 @@ My implementations of various mathematical algorithms
 
 # Laplace Expansion
 
-The Laplace expansion algorithm calculates a determinant of the __n x n__ matrix by recursively calculating determinants for submatrices until it reaches a base case of an __2 x 2__ matrix.
+The Laplace expansion algorithm calculates a determinant of the __n x n__ matrix by recursively calculating determinants for submatrices until it reaches a base case of a __2 x 2__ matrix.
 Hence in order to calculate determinant of the __n x n__ matrix the algorithm needs to calculate determinants of n submatrices of size __(n - 1) x (n - 1)__ the complexity is $O(n!)$.
 
 ## Usage
